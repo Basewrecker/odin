@@ -1,3 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Robote, sans-serif;
+}
+
 img {
     width: 100px;
 }
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15px;
+    background-color: #1F2937;
+    padding: 25px;
+}
+
+.header .right-content {
+    font-weight: bold;
+}
+
+.left-content ul {
+    display: flex;
+    gap: 20px;
+    color: dimgray;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.left-content-2 {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 14px;
+}
+
+.left-content-2 h1 {
+    font-size: 50px;
+}
+
+.left-content-2 p {
+    width: 400px;
+    color: lightgray;
+}
+
+.left-content-2 .sign-up-btn {
+    width: 100px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    border: 1px #3882f6 solid;
+}
+
+.left-content-2 .sign-up-btn:hover {
+    cursor: pointer;
+}
+
+.main-content .right-content-2 img {
+    width: 400px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
