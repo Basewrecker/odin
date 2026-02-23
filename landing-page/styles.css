@@ -154,10 +154,49 @@ body {
     color: white;
     padding: 40px;
     justify-content: center;
-    font-weight: bold;
+    font-weight: 200;
 }
 
 
+.cta-container {
+    padding: 100px;
+}
+
+
+.cta {
+    display: flex;
+    justify-content: space-around;
+    gap: 10rem;
+    background-color: #3882F6;
+    padding: 50px 30px 50px 30px;
+    color: white;
+    border-radius: 8px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.cta-text p {
+    font-weight: 300;
+    color: white;
+}
+
+.cta-btn-btn {
+    padding: 10px 30px 10px 30px;
+    color: white;
+    background-color: #3882F6;
+    border: 2px #fff solid;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cta-btn-btn:hover {
+    cursor: pointer;
+}
 
 
 
