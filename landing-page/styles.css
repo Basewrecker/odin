@@ -65,6 +65,7 @@ body {
 .left-content-2 p {
     width: 400px;
     color: lightgray;
+    font-weight: bold;
 }
 
 .left-content-2 .sign-up-btn {
@@ -74,6 +75,7 @@ body {
     background-color: #3882F6;
     color: white;
     border: 1px #3882f6 solid;
+    font-weight: bold;
 }
 
 .left-content-2 .sign-up-btn:hover {
@@ -82,9 +84,78 @@ body {
 
 .main-content .right-content-2 img {
     width: 400px;
-    height: 200px;
+    height: 250px;
 }
 
+.random-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.info-containers {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    text-align: center;
+}
+
+.random-information  img {
+    width: 180px;
+    height: 180px;
+}
+
+.random-information p {
+    padding: 15px 0px 15px 0px;
+    color: black;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.quote {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 150px;
+    background-color: #E5E7EB;
+    margin-top: 50px;
+}
+
+.info-header {
+    font-size: 30px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+
+.quote .text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-name {
+    padding-top: 20px;
+    font-weight: 600;
+    margin-left: 45rem;
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    padding: 40px;
+    justify-content: center;
+    font-weight: bold;
+}
 
 
 
